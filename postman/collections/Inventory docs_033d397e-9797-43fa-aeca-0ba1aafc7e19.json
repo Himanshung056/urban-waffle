@@ -1,0 +1,121 @@
+{
+    "info": {
+        "_postman_id": "28680b4d-a781-4535-bcbe-b0234a74c71b",
+        "name": "Inventory docs",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Sample endpoint: Returns details about a particular user",
+            "id": "d9950850-9810-4087-aff8-036a7704e231",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "{{baseUrl}}/user?ids=-24229141",
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "path": [
+                        "user"
+                    ],
+                    "query": [
+                        {
+                            "key": "ids",
+                            "value": "-24229141"
+                        }
+                    ]
+                }
+            },
+            "response": [
+                {
+                    "id": "98c1a23c-0c1b-4baa-bca1-2ce69b9b410d",
+                    "name": "Sample response: Details about a user by ID",
+                    "originalRequest": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/user?id=-46287748",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "user"
+                            ],
+                            "query": [
+                                {
+                                    "key": "id",
+                                    "value": "-46287748"
+                                }
+                            ]
+                        }
+                    },
+                    "status": "OK",
+                    "code": 200,
+                    "_postman_previewlanguage": "Text",
+                    "header": [
+                        {
+                            "disabled": false,
+                            "description": {
+                                "content": "A link to the next page of responses",
+                                "type": "text/plain"
+                            },
+                            "key": "x-next",
+                            "value": "ex occaecat ipsum dolore"
+                        },
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ],
+                    "cookie": [],
+                    "responseTime": null,
+                    "body": "{\n \"id\": -86482926,\n \"name\": \"aute quis proident\",\n \"tag\": \"adipisicing mollit pariatur\"\n}"
+                },
+                {
+                    "id": "0412abff-c810-478a-980a-dea8f5c886d1",
+                    "name": "Unexpected error",
+                    "originalRequest": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/user?id=-46287748",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "user"
+                            ],
+                            "query": [
+                                {
+                                    "key": "id",
+                                    "value": "-46287748"
+                                }
+                            ]
+                        }
+                    },
+                    "status": "Internal Server Error",
+                    "code": 500,
+                    "_postman_previewlanguage": "Text",
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ],
+                    "cookie": [],
+                    "responseTime": null,
+                    "body": "{\n \"code\": 12771378,\n \"message\": \"exercitation ad aliqua cillum nostrud\"\n}"
+                }
+            ]
+        }
+    ],
+    "variable": [
+        {
+            "id": "4fb86e8e-df06-4dbd-be23-c08bb20b10de",
+            "key": "baseUrl",
+            "value": "http://localhost:3000",
+            "type": "string"
+        }
+    ]
+}
