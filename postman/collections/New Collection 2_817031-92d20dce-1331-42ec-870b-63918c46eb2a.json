@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "92d20dce-1331-42ec-870b-63918c46eb2a",
+		"name": "New Collection 2",
+		"description": "This is a test collection. 123456 abcdef qwerty",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "817031-92d20dce-1331-42ec-870b-63918c46eb2a"
+	},
+	"item": [],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "672059a6-30cc-4a69-a151-667dce550276",
+				"type": "text/javascript",
+				"exec": [
+					"xzx"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "4c4c1423-b5a5-489a-98c5-57a7f0cc53a1",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "f683821a-e98b-4920-8f6d-8e38165d32bd",
+			"key": "asd",
+			"value": "asd",
+			"type": "string"
+		}
+	]
+}

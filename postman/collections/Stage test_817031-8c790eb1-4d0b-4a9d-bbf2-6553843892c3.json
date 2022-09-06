@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "8c790eb1-4d0b-4a9d-bbf2-6553843892c3",
+		"name": "Stage test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "817031-8c790eb1-4d0b-4a9d-bbf2-6553843892c3"
+	},
+	"item": [
+		{
+			"name": "New Request 1",
+			"id": "aa21ccd4-8078-4b69-8630-adf36dfa2bfe",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "Request 1"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request 2",
+			"id": "17c47108-87c1-438e-9498-a1ccf74061b2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "request 2"
+			},
+			"response": []
+		}
+	]
+}
