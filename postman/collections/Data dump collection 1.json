@@ -1,0 +1,17 @@
+{
+	"info": {
+		"_postman_id": "f617180c-eb7c-49db-a988-8f0b0acf3f59",
+		"name": "Data dump collection 1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "452504-f617180c-eb7c-49db-a988-8f0b0acf3f59"
+	},
+	"item": [],
+	"variable": [
+		{
+			"id": "de2436dd-7746-46fb-bb56-5b0bdc2338c1",
+			"key": "baseUrl",
+			"value": "/",
+			"type": "string"
+		}
+	]
+}
