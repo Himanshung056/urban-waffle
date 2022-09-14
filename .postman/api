@@ -9,6 +9,7 @@ files[] = {"id":"59fc382a-534e-4a13-a668-973ff1ac39b0","path":"1.json","metaData
 files[] = {"id":"08d74998-3c69-46af-8afe-46ebe7999b6e","path":"1234.json","metaData":{}}
 files[] = {"id":"f617180c-eb7c-49db-a988-8f0b0acf3f59","path":"Data dump collection 1.json","metaData":{}}
 files[] = {"id":"c009e343-15bc-41a9-902f-99be8fb38983","path":"generated collection 1_817031-5ebd0455-7ea6-41f8-94ec-8f0317fdc901.json","metaData":{}}
+files[] = {"id":"e0b9479e-c6e7-48f5-8982-130aab8c439b","path":"irelia.json","metaData":{}}
 files[] = {"id":"6065451d-390c-4b5a-a168-f753844b7d5f","path":"Karma-222 Copy.json","metaData":{}}
 files[] = {"id":"12a70ea1-9fa3-4bb3-81fa-e15b8839f954","path":"Karma.json","metaData":{}}
 files[] = {"id":"ceb800b7-af4a-4dba-a95f-7d12db00d7a2","path":"New Collection 2_817031-92d20dce-1331-42ec-870b-63918c46eb2a.json","metaData":{}}
@@ -26,8 +27,6 @@ files[] = {"id":"269e0fc4-54b3-450f-9719-5212cd788720","path":"zdsa.json","metaD
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
-files[] = {"path":"aa.yaml","metaData":{}}
-files[] = {"path":"ionia.yaml","metaData":{}}
 files[] = {"path":"New.yaml","metaData":{}}
 
 [relations.apiDefinition.metaData]
